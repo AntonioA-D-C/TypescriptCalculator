@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
+
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+</head>
+<body onload="init()">
+    <div class="calculadora">
+
+        <td colspan="4">
+    <input class="inputbox" id="box" type="text" readonly></input>
+    
+    <div class="inputs">
+    <div class="number-column">
+        
+            <button id="allclear">AC</button>
+            <button class="operations">( )</button>
+            <button class="operations" id="mod">%</button>
+            <button class="operations" id="dividir">/</button>
+        
+        
+      <button class="number" id="siete" value="7">7</button> 
+      <button class="number" id="ocho" value="8">8</button> 
+       <button class="number" id="nueve" value="9">9</button> 
+      <button class="operations" id="multiplicar">*</button>
+    
+    
+         <button class="number" id="cuatro" value="4">4</button> 
+          <button class="number" id="cinco" value="5">5</button> 
+          <button class="number" id="seis" value="6">6</button> 
+        <button class="operations" id="restar">-</button>
+    
+    
+     <button class="number" id="uno" value="1">1</button>  
+     <button class="number" id="dos" value="2">2</button> 
+     <button class="number"  id="tres" value="3">3</button> 
+    <button class="operations" id="sumar">+</button>
+
+
+     <button class="number" id="zero" value="0">0</button>  
+     <button class="number" id="number" value=".">.</button> 
+     <button class="del"  id="del"><i class="fa fa-trash-o fa-lg"></i></button> 
+    <button id="result">=</button>
+
+</div>
+</div>
+</div>
+<script src="../calculadora/dist/calculadora.js"></script>
+</body>
+</html>

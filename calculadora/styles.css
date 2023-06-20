@@ -1,0 +1,110 @@
+
+
+
+
+.inputbox{
+width: 100%;
+    height: 200px;
+    background-color: rgb(86, 81, 100);
+    color: white;
+    display: block;   
+    border: none;
+    border-radius: 10%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    margin-bottom: 20px;
+    font-size: 45px;
+    overflow-x: scroll;
+}
+#allclear{
+    background-color: rgb(10, 119, 74);
+    color: rgb(202, 255, 232);
+}
+.number-column{
+    justify-content: space-between;
+    padding: 10px;
+}
+.number-column button{
+    margin: 5px 2px;
+    border-radius: 50%;
+    font-family: arial;
+    font-weight: 2px;
+    font-size: 24px;
+    border-width: 0px;
+    position: relative;
+    justify-content: space-between;
+    height: 50px;
+    width: 50px;
+}
+.number-column button:hover{
+    border-radius: 20%;
+    margin: 5px 2px;
+    font-family: arial;
+    font-weight: 10px;
+    font-size: 24px;
+    border-width: 0px;
+    transition: .2s;
+    cursor: pointer;
+}
+.number{
+
+    background-color:  rgb(39, 51, 56);
+  
+    color: white;
+}
+#result{
+   
+    background-color: rgb(33, 33, 142);
+
+    color: white;
+
+}
+.operations{
+
+    background-color: rgb(33, 84, 142);
+    color: white;
+
+}
+.number:hover, .number:active{
+    background-color:  rgb(81, 107, 117);
+   
+}
+.operations:hover, .operations:active{
+
+    background-color: rgb(58, 141, 235);
+    color: white;
+
+}
+#result:hover, #result:active{
+
+    background-color: rgb(66, 66, 228);
+
+    color: white;
+
+}
+#allclear:hover, #allclear:active{
+
+    background-color: rgb(18, 209, 129);
+
+    color: white;
+
+}
+.calculadora{
+    display: flex;
+    align-items: center;
+    width: min-content;
+    height:  min-content;
+    background-color: rgb(25, 33, 39);
+    padding: 0;
+    display: block;
+    border-radius: 20px 20px 20px 20px;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+}
+
+.number-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
